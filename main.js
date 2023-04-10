@@ -8,103 +8,103 @@ const products = [
   {
     name: "Xà lách trộn kiểu Nga",
     price: 59000,
-    image: "/assets/image/product1.jpg",
+    image: "./assets/image/product1.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Tomato SP",
     price: 68000,
-    image: "/assets/image/product2.jpg",
+    image: "./assets/image/product2.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Supreme",
     price: 269000,
-    image: "/assets/image/product3.jpg",
+    image: "./assets/image/product3.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Súp rau",
     price: 29000,
-    image: "/assets/image/product4.jpg",
+    image: "./assets/image/product4.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Súp gà kem sữa",
     price: 39000,
-    image: "/assets/image/product5.jpg",
+    image: "./assets/image/product5.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Shup tôm",
     price: 160000,
-    image: "/assets/image/product6.jpg",
+    image: "./assets/image/product6.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Seafood Pesto",
     price: 269000,
-    image: "/assets/image/product7.jpg",
+    image: "./assets/image/product7.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Seafood Chowder",
     price: 59000,
-    image: "/assets/image/product8.jpg",
+    image: "./assets/image/product8.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Seafood Black Pepper",
     price: 259000,
-    image: "/assets/image/product9.jpg",
+    image: "./assets/image/product9.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Seafood",
     price: 69000,
-    image: "/assets/image/product10.jpg",
+    image: "./assets/image/product10.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Salad cá ngừ",
     price: 49000,
-    image: "/assets/image/product11.jpg",
+    image: "./assets/image/product11.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Salad bắp cải",
     price: 39000,
-    image: "/assets/image/product12.jpg",
+    image: "./assets/image/product12.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Pizza Sốt Cà Bò",
     price: 190000,
-    image: "/assets/image/product13.jpg",
+    image: "./assets/image/product13.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Pizza Thịt Lợn",
     price: 210000,
-    image: "/assets/image/product14.jpg",
+    image: "./assets/image/product14.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Pizza Supreme",
     price: 259000,
-    image: "/assets/image/product15.jpg",
+    image: "./assets/image/product15.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Pizza bốn mùa",
     price: 380000,
-    image: "/assets/image/product16.jpg",
+    image: "./assets/image/product16.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Bánh phủ socola",
     price: 49000,
-    image: "/assets/image/product17.jpg",
+    image: "./assets/image/product17.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
 ];
@@ -114,7 +114,7 @@ const news = [
     date: "07/01/2023",
     content:
       "Tặng 1 pizza cỡ M (áp dụng cho tất cả các loại pizza trừ số 3, 11 và 12) Quý khách vui lòng mang theo chứng minh thư nhân dân hoặc các giấy tờ tương đương thể hiện ngày sinh nhật trùng với ngày nhận bánh Mỗi khách hàng chỉ được nhận 1 bánh tặng miễn phí Chỉ áp dụng với các đơn hàng có giá trị trên 250.000đ Cửa hàng tặng miễn phí tối đa 10 bánh/ 1 ngày cho 10 người đăng kí đầu tiên",
-    image: "/assets/image/product14.jpg",
+    image: "./assets/image/product14.jpg",
   },
   {
     title:
@@ -122,49 +122,49 @@ const news = [
     date: "07/01/2023",
     content:
       "Áp dụng cho thứ 2, thứ 4, thứ 6 hàng tuần Áp dụng cho các hình thức: giao bánh và mang về Không áp dụng ngày lễ, tết",
-    image: "/assets/image/product17.jpg",
+    image: "./assets/image/product17.jpg",
   },
   {
     title: "Khuyến mãi thứ 3, thứ 5 hàng tuần",
     date: "07/01/2023",
     content:
       "Áp dụng cho ngày thứ 3 và thứ 5 hàng tuần Áp dụng cho các hình thức: giao bánh và mang về Không áp dụng ngày lễ, tết",
-    image: "/assets/image/product12.jpg",
+    image: "./assets/image/product12.jpg",
   },
   {
     title: "Tặng 1 bánh pizza miễn phí cho ngày sinh nhật của bạn",
     date: "07/01/2023",
     content:
       "Tặng 1 pizza cỡ M (áp dụng cho tất cả các loại pizza trừ số 3, 11 và 12) Quý khách vui lòng mang theo chứng minh thư nhân dân hoặc các giấy tờ tương đương thể hiện ngày sinh nhật trùng với ngày nhận bánh Mỗi khách hàng chỉ được nhận 1 bánh tặng miễn phí Chỉ áp dụng với các đơn hàng có giá trị trên 250.000đ Cửa hàng tặng miễn phí tối đa 10 bánh/ 1 ngày cho 10 người đăng kí đầu tiên",
-    image: "/assets/image/product8.jpg",
+    image: "./assets/image/product8.jpg",
   },
   {
     title: "Khuyến mãi thứ 3, thứ 5 hàng tuần",
     date: "07/01/2023",
     content:
       "Áp dụng cho ngày thứ 3 và thứ 5 hàng tuần Áp dụng cho các hình thức: giao bánh và mang về Không áp dụng ngày lễ, tết",
-    image: "/assets/image/product1.jpg",
+    image: "./assets/image/product1.jpg",
   },
   {
     title: "Khuyến mãi thứ 3, thứ 5 hàng tuần",
     date: "07/01/2023",
     content:
       "Áp dụng cho ngày thứ 3 và thứ 5 hàng tuần Áp dụng cho các hình thức: giao bánh và mang về Không áp dụng ngày lễ, tết",
-    image: "/assets/image/product12.jpg",
+    image: "./assets/image/product12.jpg",
   },
   {
     title: "Tặng 1 bánh pizza miễn phí cho ngày sinh nhật của bạn",
     date: "07/01/2023",
     content:
       "Tặng 1 pizza cỡ M (áp dụng cho tất cả các loại pizza trừ số 3, 11 và 12) Quý khách vui lòng mang theo chứng minh thư nhân dân hoặc các giấy tờ tương đương thể hiện ngày sinh nhật trùng với ngày nhận bánh Mỗi khách hàng chỉ được nhận 1 bánh tặng miễn phí Chỉ áp dụng với các đơn hàng có giá trị trên 250.000đ Cửa hàng tặng miễn phí tối đa 10 bánh/ 1 ngày cho 10 người đăng kí đầu tiên",
-    image: "/assets/image/product8.jpg",
+    image: "./assets/image/product8.jpg",
   },
   {
     title: "Khuyến mãi thứ 3, thứ 5 hàng tuần",
     date: "07/01/2023",
     content:
       "Áp dụng cho ngày thứ 3 và thứ 5 hàng tuần Áp dụng cho các hình thức: giao bánh và mang về Không áp dụng ngày lễ, tết",
-    image: "/assets/image/product1.jpg",
+    image: "./assets/image/product1.jpg",
   },
 ];
 
