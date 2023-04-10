@@ -447,6 +447,34 @@
     margin-top: 20px;
     cursor: pointer;
   }
+  .header-navmenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: ;
+    background-color: rgb(248, 175, 162);
+    width: 95%;
+    margin: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+  }
+  .header-navmenu a {
+    /* background-color: rgb(248, 175, 162); */
+    /* border-radius: 5px; */
+    /* margin: 5px 5px; */
+    color: #fff;
+    /* width: 100px; */
+    position: relative;
+    height: fit-content;
+  }
+  .header-navmenu a  {
+    border-bottom: 1px dotted #000;
+  }
+  .header-navmenu a:nth-child(9){
+    border-bottom: 1px dotted transparent;
+  }
   .body-contentright {
     margin-top: 20px;
   }
