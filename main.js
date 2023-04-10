@@ -219,7 +219,7 @@ products.map((product, index) => {
   pButton.style.fontSize = "14px";
   pButton.style.lineHeight = "23px";
   let imgCart = document.createElement("img");
-  imgCart.setAttribute("src", "/assets/image/shopping-cart.png");
+  imgCart.setAttribute("src", "./assets/image/shopping-cart.png");
   imgCart.style.width = "20px";
   imgCart.style.height = "20px";
   button.append(pButton);
