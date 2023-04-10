@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../../assets/image/title-image.png"/>
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/83045efcea.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Phần đầu trang-->
+    <div class="header">
+      <div class="header-subnav">
+        <div class="header-subnav-left">
+          <i class="fa-solid fa-user"></i>
+          <span>Hotline:0896459412</span>
+        </div>
+        <label><i class="fa-solid fa-bars"></i></label>
+          <input type="checkbox">
+        <div class="header-subnav-right">
+          <ul>
+            <a href="../../pages/check-orders/index.html"><li><i class="fa-solid fa-pen-to-square"></i>Kiểm tra đơn hàng</li></a>
+            <a href="./index.html"><li><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</li></a>
+            <a href="../register/index.html"><li><i class="fa-solid fa-right-to-bracket"></i>Đăng nhập</li></a>
+            <a href="../login/index.html"><li><i class="fa-solid fa-key"></i>Đăng ký</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="header-logoandsearch">
+        <div class="header-logo">
+          <img class="buttonHomeLogo" src="/assets/image/logo.png" alt="Lỗi hiển thị" />
+        </div>
+        <div class="header-search">
+          <input type="text" placeholder="Tìm kiếm..." />
+          <div class="button-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="header-navmenu">
+        <a href="../../index.html"><p>TRANG CHỦ</p></a>
+        <p>/</p>
+        <a href="../list-product/index.html"><p>SẢN PHẨM</p></a>
+        <p>/</p>
+        <a href="../news/index.html"><p>TIN TỨC</p></a>
+        <p>/</p>
+        <a href="../aboutme/index.html"><p>GIỚI THIỆU</p></a>
+        <p>/</p>
+        <a href="../contact/index.html"><p>LIÊN HỆ</p></a>
+        <p>/</p>
+      </div>
+      <div class="header-slider">
+        <div class="slider"></div>
+      </div>
+      <div class="header-panner">
+        <!-- <img src="./assets/image/banner_top.jpg"> -->
+      </div>
+    </div>
+    <!--Phần thân trang-->
+    <div class="body">
+      <h3>GIỎ HÀNG CỦA TÔI</h3>
+      <div class="line"></div>
+      <div class="follow">
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>giở hàng của tôi</span>
+        </div>
+        <div class="pay">
+          <i class="fa-solid fa-credit-card"></i>
+          <span>thanh toàn</span>
+        </div>
+        <div class="done">
+          <i class="fa-solid fa-check"></i>
+          <span>hoàn tất</span>
+        </div>
+      </div>
+      <div class="tabs">
+        <div class="tabcart">
+          <div class="title">
+            <p>TÊN SẢN PHẨM</p>
+            <p>GÍA</p>
+            <p>SỐ LƯỢNG</p>
+            <p>THÀNH TIỀN</p>
+          </div>
+        </div>
+        <div class="tabpay">
+          <div class="tabpayitem">
+            <h3>1. ĐỊA CHỈ THANH TOÁN VÀ GIAO HÀNG</h3>
+            <p style="margin-top: 10px">THÔNG TIN THANH TOÁN</p>
+            <p style="margin-top: 10px">
+              <span style="color: rgb(255, 0, 0)">Đăng ký</span> |
+              <span style="color: rgb(255, 0, 0)">Đăng nhập</span>
+            </p>
+            <input type="text" placeholder="Họ và Tên" />
+            <input type="number" placeholder="Số điện thoại" />
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Địa chỉ" />
+            <select id="city"></select>
+            <select id="distreet"></select>
+            <textarea placeholder="Ghi chú đơn hàng"></textarea>
+          </div>
+          <div class="tabpayitem">
+            <h3>2. PHƯƠNG THỨC VẬN CHUYỂN</h3>
+            <p style="margin-top: 10px">CHỌN PHƯƠNG THỨC VẬN CHUYỂN</p>
+            <select id="dilivery"></select>
+            <p style="margin-top: 10px">PHÍ VẬN CHUYỂN</p>
+          </div>
+          <div class="tabpayitem">
+            <h3>3. TỔNG THANH TOÁN</h3>
+            <div class="totalcart">
+              <p>Thành tiền</p>
+            </div>
+            <div class="totaldilivery">
+              <p>Phí vận chuyển</p>
+            </div>
+            <div class="total">
+              <p>Tổng thanh toán</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <button>TIẾP TỤC MUA SẮM</button>
+        <button class="payingButton">THANH TOÁN</button>
+      </div>
+    </div>
+     <!--Phần cuối trang-->
+     <div class="footer">
+        <div class="footer-line"></div>
+        <div class="footer-infor">
+          <div class="logo">
+            <img src="/assets/image/logo.png" alt="" srcset="" />
+          </div>
+          <div class="info">
+            <div class="infoleft">
+              <h3>CÔNG TY TNHH PHÁT TRIỂN CÔNG NGHỆ RUNTIME</h3>
+              <p>Địa chỉ: 5/12A Quang Trung, P.14, Q.Gò Vấp, Tp.HCM</p>
+              <p>Số điện thoại: (08) 66 85 85 38</p>
+              <p>Số di động: 0908 77 00 95</p>
+              <p>Email: runecom04@runtime.vn</p>
+            </div>
+            <div class="inforight">
+              <p>
+                © 2017. Bản quyền thuộc về <span>SeaFood Store</span>. Powered
+                by <span>RUNTIME.VN</span>
+              </p>
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+  </body>
+</html>
+<script src="main.js"></script>
