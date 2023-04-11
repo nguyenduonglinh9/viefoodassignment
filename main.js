@@ -8,19 +8,19 @@ const products = [
   {
     name: "Xà lách trộn kiểu Nga",
     price: 59000,
-    image: "/assets/image/product1.jpg",
+    image: "./assets/image/product1.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Tomato SP",
     price: 68000,
-    image: "/assets/image/product2.jpg",
+    image: "./assets/image/product2.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Supreme",
     price: 269000,
-    image: "/assets/image/product3.jpg",
+    image: "./assets/image/product3.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
@@ -38,43 +38,43 @@ const products = [
   {
     name: "Shup tôm",
     price: 160000,
-    image: "/assets/image/product6.jpg",
+    image: "./assets/image/product6.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Seafood Pesto",
     price: 269000,
-    image: "/assets/image/product7.jpg",
+    image: "./assets/image/product7.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Seafood Chowder",
     price: 59000,
-    image: "/assets/image/product8.jpg",
+    image: "./assets/image/product8.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Seafood Black Pepper",
     price: 259000,
-    image: "/assets/image/product9.jpg",
+    image: "./assets/image/product9.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Seafood",
     price: 69000,
-    image: "/assets/image/product10.jpg",
+    image: "./assets/image/product10.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Salad cá ngừ",
     price: 49000,
-    image: "/assets/image/product11.jpg",
+    image: "./assets/image/product11.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
     name: "Salad bắp cải",
     price: 39000,
-    image: "/assets/image/product12.jpg",
+    image: "./assets/image/product12.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
@@ -92,7 +92,7 @@ const products = [
   {
     name: "Pizza Supreme",
     price: 259000,
-    image: "/assets/image/product15.jpg",
+    image: "./assets/image/product15.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
   {
@@ -110,19 +110,19 @@ const products = [
   {
     name: "Cơm rang thập cẩm",
     price: 59000,
-    image: "/assets/image/product18.jpg",
+    image: "./assets/image/product18.jpg",
     desc: "Món cơm rang trộm thập cẩm các nguyên liệu từ hải sản tới bò, heo",
   },
   {
     name: "Bánh ngọt mật ong",
     price: 109000,
-    image: "/assets/image/product19.jpg",
+    image: "./assets/image/product19.jpg",
     desc: "Món bánh phủ mật ong ngọt ngào",
   },
   {
     name: "Salad trộn kiểu Pháp",
     price: 99000,
-    image: "/assets/image/product20.jpg",
+    image: "./assets/image/product20.jpg",
     desc: "Món salad trộn kiểu Pháp cùng phô mai chua",
   },
   {
