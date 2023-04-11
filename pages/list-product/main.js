@@ -103,6 +103,54 @@ const products = [
     image: "/assets/image/product17.jpg",
     desc: "Món salad Nga luôn tươi ngon và hấp dẫn những ai thưởng thức.",
   },
+  {
+    name: "Cơm rang thập cẩm",
+    price: 59000,
+    image: "/assets/image/product18.jpg",
+    desc: "Món cơm rang trộm thập cẩm các nguyên liệu từ hải sản tới bò, heo",
+  },
+  {
+    name: "Bánh ngọt mật ong",
+    price: 109000,
+    image: "/assets/image/product19.jpg",
+    desc: "Món bánh phủ mật ong ngọt ngào",
+  },
+  {
+    name: "Salad trộn kiểu Pháp",
+    price: 99000,
+    image: "/assets/image/product20.jpg",
+    desc: "Món salad trộn kiểu Pháp cùng phô mai chua",
+  },
+  {
+    name: "Pizza thập cẩm",
+    price: 129000,
+    image: "/assets/image/product21.jpg",
+    desc: "Pizza thập cẩm sự kết hợp giữa ba nguyên liệu : Hải sản, bò, heo",
+  },
+  {
+    name: "Soup cay Hàn Quốc",
+    price: 109000,
+    image: "/assets/image/product22.png",
+    desc: "Món soup cay đến từ Hàn Quốc",
+  },
+  {
+    name: "Mỳ ý cơ bản",
+    price: 59000,
+    image: "/assets/image/product23.jpg",
+    desc: "Món mỳ ý trộn sốt cà chua đơn giản",
+  },
+  {
+    name: "Phở Việt Nam",
+    price: 109000,
+    image: "/assets/image/product24.jpg",
+    desc: "Món Phở đặc trưng của Việt Nam, tô bình thường",
+  },
+  {
+    name: "Phở Việt Nam",
+    price: 129000,
+    image: "/assets/image/product25.jpg",
+    desc: "Món Phở đặc trưng của Việt Nam, tô đặt biệt",
+  },
 ];
 
 products.map((product, index) => {
@@ -119,15 +167,18 @@ products.map((product, index) => {
   pPrice.style.lineHeight = "23px";
   let img = document.createElement("img");
   img.setAttribute("src", product.image);
-  img.addEventListener('click', () => {
-    localStorage.setItem('detailproduct', JSON.stringify({
-      detailimage: product.image,
-      detailname: product.name,
-      detailprice: product.price,
-      detaildesc: product.desc
-    }));
-    location.href='../../pages/detail-product/index.html'
-  })
+  img.addEventListener("click", () => {
+    localStorage.setItem(
+      "detailproduct",
+      JSON.stringify({
+        detailimage: product.image,
+        detailname: product.name,
+        detailprice: product.price,
+        detaildesc: product.desc,
+      })
+    );
+    location.href = "../../pages/detail-product/index.html";
+  });
   let button = document.createElement("button");
   button.style.width = "fit-content";
   button.style.height = "fit-content";
@@ -149,5 +200,33 @@ products.map((product, index) => {
   div.append(pPrice);
   div.append(button);
   listProduct.append(div);
+  pButton.addEventListener("click", () => {
+    var myCart = JSON.parse(localStorage.getItem("myCart"));
+    if (myCart == null) {
+      localStorage.setItem(
+        "myCart",
+        JSON.stringify([
+          {
+            detailimage: product.image,
+            detailname: product.name,
+            detailprice: product.price,
+            detaildesc: product.desc,
+          },
+        ])
+      );
+      location.href = "../../pages/mycart/index.html";
+    } else {
+      const newCart = [...myCart];
+      newCart.push({
+        detailimage: product.image,
+        detailname: product.name,
+        detailprice: product.price,
+        detaildesc: product.desc,
+      });
+      console.log(newCart);
+      localStorage.setItem("myCart", JSON.stringify(newCart));
+      location.href = "../../pages/mycart/index.html";
+    }
+  });
   // let button = document.createElement("div");
 });

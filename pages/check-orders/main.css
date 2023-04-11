@@ -125,88 +125,88 @@
   background-color: rgb(215, 75, 51);
   color: white;
 }
-.body{
-    width: 90%;
-    margin: auto;
+.body {
+  width: 90%;
+  margin: auto;
 }
-.body h3{
-    display: inline-block;
-    font-family: sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 17px;
-    line-height: 21px;
-    color:white;
-    background-color: rgb(215,75,51);
-    padding: 10px;
+.body h3 {
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: white;
+  background-color: rgb(215, 75, 51);
+  padding: 10px;
 }
-.line{
-    width: 100%;
-    height: 2px;
-    background-color: rgb(215,75,51);
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(215, 75, 51);
 }
-.notification{
-    width: 100%;
-    background-color: rgb(242,222,222);
-    border: 1px solid rgb(235,204,209);
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 20px;
-    color: rgb(185,68,66);
+.notification {
+  width: 100%;
+  background-color: rgb(242, 222, 222);
+  border: 1px solid rgb(235, 204, 209);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: rgb(185, 68, 66);
 }
-.searching{
-    width: 100%;
-    background-color: rgb(234,234,234);
-    padding: 10px;
-    margin-top: 20px;
+.searching {
+  width: 100%;
+  background-color: rgb(234, 234, 234);
+  padding: 10px;
+  margin-top: 20px;
 }
-.searching span{
-     font-family: sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 20px;
+.searching span {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
 }
-.searching input{
-    padding: 10px;
-    border: 1px solid rgb(204,204,204);
-    border-radius: 5px;
-    outline: none;
-    width: 300px;
+.searching input {
+  padding: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  outline: none;
+  width: 300px;
 }
-.searching button{
-    padding: 10px;
-    background-color: rgb(215,75,51);
-    color: white;
+.searching button {
+  padding: 10px;
+  background-color: rgb(215, 75, 51);
+  color: white;
 }
-.footer{
-    width: 100%;
-    margin-top: 140px;
-    cursor: pointer;
+.footer {
+  width: 100%;
+  margin-top: 140px;
+  cursor: pointer;
 }
-.footer-line{
-    width: 100%;
-    height: 1px;
-    background-color: #060606;
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color: #060606;
 }
-.footer-infor{
-    width: 100%;
+.footer-infor {
+  width: 100%;
 }
-.logo{
+.logo {
   width: 100%;
   display: flex;
   margin-top: 20px;
 }
-.logo img{
+.logo img {
   margin: auto;
 }
-.info{
+.info {
   width: 100%;
   display: flex;
   justify-content: space-around;
   margin: 20px;
 }
-.infoleft p{
+.infoleft p {
   font-family: serif;
   font-style: normal;
   font-weight: 400;
@@ -214,7 +214,7 @@
   line-height: 24px;
   color: #333333;
 }
-.inforight p{
+.inforight p {
   font-family: serif;
   font-style: normal;
   font-weight: 400;
@@ -222,14 +222,25 @@
   line-height: 24px;
   color: #686868;
 }
-.inforight span{
-  color: rgb(58,158,219);
+.inforight span {
+  color: rgb(58, 158, 219);
 }
 .header-subnav label {
   display: none;
 }
 .header-subnav input[type="checkbox"] {
   display: none;
+}
+.title {
+  display: flex;
+}
+.title p {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: #c9c7c7;
+  color: white;
+  margin-top: 10px;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .body-content {
@@ -304,17 +315,17 @@
   }
 }
 @media (max-width: 768px) {
-  .header{
-     max-width: 768px;
-     overflow: hidden;
+  .header {
+    max-width: 768px;
+    overflow: hidden;
   }
-  .body{
-     max-width: 768px;
-      overflow: hidden;
+  .body {
+    max-width: 768px;
+    overflow: hidden;
   }
-  .footer{
-     max-width: 768px;
-      overflow: hidden;
+  .footer {
+    max-width: 768px;
+    overflow: hidden;
   }
   .info {
     width: 100%;
@@ -408,8 +419,9 @@
     width: 95%;
     margin: auto;
     margin: 10px auto;
-    border-radius: 5px; 
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
   .header-navmenu a {
     /* background-color: rgb(248, 175, 162); */
@@ -420,10 +432,10 @@
     position: relative;
     height: fit-content;
   }
-  .header-navmenu a  {
+  .header-navmenu a {
     border-bottom: 1px dotted #000;
   }
-  .header-navmenu a:nth-child(9){
+  .header-navmenu a:nth-child(9) {
     border-bottom: 1px dotted transparent;
   }
   .body-contentright {
@@ -432,7 +444,7 @@
   .listproducts div {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
   }
   .listproducts div button img {
     display: none;
@@ -440,7 +452,6 @@
   .listproducts div button {
     margin: 0 !important;
     align-self: center;
-
   }
   .listproducts div button p {
     padding: 2px 5px;
@@ -449,36 +460,36 @@
     color: white;
     font-size: 10px !important;
   }
-  .header-logoandsearch{
+  .header-logoandsearch {
     display: flex;
     flex-direction: column;
     height: fit-content;
     padding: 10px;
   }
-  .header-logo{
+  .header-logo {
     margin: auto;
   }
-  .header-logo img{
+  .header-logo img {
     margin: auto;
   }
-  .header-search{
+  .header-search {
     margin: 10px auto;
   }
-  .header-search input{
+  .header-search input {
     width: 100%;
   }
-  .header-panner{
+  .header-panner {
     width: 100%;
-    background-size:contain;
+    background-size: contain;
   }
-  .header-navmenu{
+  .header-navmenu {
     display: flex;
     flex-direction: column;
   }
-  .header-navmenu p:nth-child(even){
+  .header-navmenu p:nth-child(even) {
     display: none;
   }
-  .header-navmenu p{
+  .header-navmenu p {
     width: 100%;
   }
 }

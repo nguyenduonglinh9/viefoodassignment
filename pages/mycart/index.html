@@ -82,10 +82,14 @@
       <div class="tabs">
         <div class="tabcart">
           <div class="title">
+            <p>HÌNH ẢNH</p>
             <p>TÊN SẢN PHẨM</p>
             <p>GÍA</p>
             <p>SỐ LƯỢNG</p>
             <p>THÀNH TIỀN</p>
+          </div>
+          <div class="listCart">
+            
           </div>
         </div>
         <div class="tabpay">
@@ -107,8 +111,11 @@
           <div class="tabpayitem">
             <h3>2. PHƯƠNG THỨC VẬN CHUYỂN</h3>
             <p style="margin-top: 10px">CHỌN PHƯƠNG THỨC VẬN CHUYỂN</p>
-            <select id="dilivery"></select>
-            <p style="margin-top: 10px">PHÍ VẬN CHUYỂN</p>
+            <select id="dilivery">
+              <option value="20000">Vận Chuyển 1</option>
+               <option value="30000">Vận Chuyển 2</option>
+            </select>
+            <!-- <p style="margin-top: 10px">PHÍ VẬN CHUYỂN</p> -->
           </div>
           <div class="tabpayitem">
             <h3>3. TỔNG THANH TOÁN</h3>
@@ -123,10 +130,16 @@
             </div>
           </div>
         </div>
+        <div class="tabdone">
+          <h3 style="margin: auto; cursor: pointer;">CHÚC MỪNG BẠN ĐÃ ĐẶT HÀNG THÀNH CÔNG</h3>
+        </div>
       </div>
       <div class="controls">
-        <button>TIẾP TỤC MUA SẮM</button>
+        <button class="backtohome">TIẾP TỤC MUA SẮM</button>
         <button class="payingButton">THANH TOÁN</button>
+      </div>
+      <div class="controls2">
+        <button class="hoanthanh">HOÀN THÀNH</button>
       </div>
     </div>
      <!--Phần cuối trang-->
